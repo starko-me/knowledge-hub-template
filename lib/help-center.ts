@@ -2,8 +2,8 @@
 
 import { CLIENT_KEY } from "./help-center-config";
 
-// const base_url = 'https://v2.starko.one';
-const base_url = 'http://localhost:3000';
+const base_url = 'https://v2.starko.one';
+// const base_url = 'http://localhost:3000';
 
 export const getWorkspaceInfo = async (): Promise<{
   ok: boolean;
